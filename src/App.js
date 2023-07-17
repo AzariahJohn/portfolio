@@ -110,55 +110,55 @@ function App() {
       <div className="third-container">
         <h1 className="cert-title">Certificate & Projects</h1>
         <div className="cert-outer-container">
-          <a href={masterclass}>
+          <a href={masterclass} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>Web Development Bootcamp</p>
               <p className="date-provider"><span className="period">Udemy .</span> 20/12/21 - 17/07/23</p>
             </div>
           </a>
-          <a href={socialengg}>
-            <div className="certificate-card">
+          <a href={socialengg} target="_blank" rel="noreferrer">
+            <div className="certificate-card" >
               <p>Social Engineering from scratch</p>
               <p className="date-provider"><span className="period">Udemy .</span> 15/10/21 - 02/12/21</p>
             </div>
           </a>
-          <a href={ethicalHacking}>
+          <a href={ethicalHacking} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>Ethical Hacking from scratch</p>
               <p className="date-provider"><span className="period">Udemy .</span> 23/08/21 - 17/12/21</p>
             </div>
           </a>
-          <a href={malware}>
+          <a href={malware} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>Website Hacking / Pentesting</p>
               <p className="date-provider"><span className="period">Udemy .</span> 02/08/20 - 11/08/20</p>
             </div>
           </a>
-          <a href={WebDevBoot}>
+          <a href={WebDevBoot} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>Ethical Hacking Masterclass</p>
               <p className="date-provider"><span className="period">Udemy .</span> 02/08/21 - 17/12/21</p>
             </div>
           </a>
-          <a href={darkweb}>
+          <a href={darkweb} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>Anonymity and Dark Web</p>
               <p className="date-provider"><span className="period">Udemy .</span> 28/12/22 - 17/07/23</p>
             </div>
           </a>
-          <a href={gcp}>
+          <a href={gcp} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>Google Cloud Specialization</p>
               <p className="date-provider"><span className="period">Coursera .</span> 20/11/21 - 07/03/22</p>
             </div>
           </a>
-          <a href={oop}>
+          <a href={oop} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>Object Oriented Programming</p>
               <p className="date-provider"><span className="period">Udemy .</span> 03/08/21 - 11/08/21</p>
             </div>
           </a>
-          <a href={se8}>
+          <a href={se8} target="_blank" rel="noreferrer">
             <div className="certificate-card">
               <p>OCJA Java SE8 Certification</p>
               <p className="date-provider"><span className="period">Oracle .</span> Completed on 31/03/23</p>
@@ -172,7 +172,7 @@ function App() {
           </a>
         </div>
         <div className="proj-outer-container">
-          <a href="https://github.com/AzariahJohn/ThreeJaLab">
+          <a href="https://github.com/AzariahJohn/ThreeJaLab" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>VR Laboratory (Three JS)</p>
               <p className="date-provider-proj">Experience an immersive VR Laboratory powered by
@@ -183,7 +183,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn/Interactivity">
+          <a href="https://github.com/AzariahJohn/Interactivity" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>Three JS Interactivity</p>
               <p className="date-provider-proj">Unleash creativity with React Three Fiber's 
@@ -194,7 +194,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn/SustainableEnvironment">
+          <a href="https://github.com/AzariahJohn/SustainableEnvironment" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>Accounts API (Sustainable Env)</p>
               <p className="date-provider-proj">Discover a secure Accounts API built on the MERN stack, 
@@ -205,7 +205,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn/Symposium">
+          <a href="https://github.com/AzariahJohn/Symposium" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>College Symposium Webpage</p>
               <p className="date-provider-proj">Experience the ultimate College Symposium webpage, crafted 
@@ -216,7 +216,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn/Food-Website">
+          <a href="https://github.com/AzariahJohn/Food-Website" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>Food Ordering website (DBMS)</p>
               <p className="date-provider-proj">Savor the flavors with our Food Ordering Website, meticulously 
@@ -226,7 +226,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/Arunchandran13/Teachersmodule">
+          <a href="https://github.com/Arunchandran13/Teachersmodule" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>Teachers Module VR Lab</p>
               <p className="date-provider-proj">Welcome to the Teachers Module of our VR Laboratory! Powered by 
@@ -246,7 +246,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn/Profix">
+          <a href="https://github.com/AzariahJohn/Profix" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>Profix (PC Building Website)</p>
               <p className="date-provider-proj">Build your dream PC with our cutting-edge PC Building 
@@ -257,7 +257,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn/mac">
+          <a href="https://github.com/AzariahJohn/mac" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>MAC (Air Conditioner Website)</p>
               <p className="date-provider-proj">Chill in comfort with our AC Shop's dynamic static 
@@ -268,7 +268,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn/SnakeAndLadder">
+          <a href="https://github.com/AzariahJohn/SnakeAndLadder" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>3D Snake and Ladder (Unity)</p>
               <p className="date-provider-proj">Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -279,7 +279,7 @@ function App() {
               </p>
             </div>
           </a>
-          <a href="https://dribbble.com/azariahjhn">
+          <a href="https://dribbble.com/azariahjhn" target="_blank" rel="noreferrer">
             <div className="proj-card">
               <p>UX / UI Designs (Adobe XD)</p>
               <p className="date-provider-proj">Embark on a thrilling journey with our 3D Snake and 
@@ -293,42 +293,42 @@ function App() {
       </div>
       <div className="fourth-container">
         <div className="social-container">
-          <a href="https://www.instagram.com/azariahjhn/">
+          <a href="https://www.instagram.com/azariahjhn/" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={insta} alt="" className="social-img"/>
             </div>
           </a>
-          <a href="https://twitter.com/azrjhn">
+          <a href="https://twitter.com/azrjhn" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={twitter} alt="" className="social-img"/>
             </div>
           </a>
-          <a href="https://dribbble.com/azariahjhn">
+          <a href="https://dribbble.com/azariahjhn" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={dribbble} alt="" className="social-img"/>
             </div>
           </a>
-          <a href="mailto:azariahjohnofficial@gmail.com">
+          <a href="mailto:azariahjohnofficial@gmail.com" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={gmail} alt="" className="social-img"/>
             </div>
           </a>
-          <a href="https://leetcode.com/azariahjhn/">
+          <a href="https://leetcode.com/azariahjhn/" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={leetcode} alt="" className="social-img"/>
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/azj/">
+          <a href="https://www.linkedin.com/in/azj/" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={linkedin} alt="" className="social-img"/>
             </div>
           </a>
-          <a href="https://www.hackerrank.com/azariahjhn?hr_r=1">
+          <a href="https://www.hackerrank.com/azariahjhn?hr_r=1" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={hackerrank} alt="" className="social-img"/>
             </div>
           </a>
-          <a href="https://github.com/AzariahJohn">
+          <a href="https://github.com/AzariahJohn" target="_blank" rel="noreferrer">
             <div className="social-card">
               <img src={github} alt="" className="social-img"/>
             </div>

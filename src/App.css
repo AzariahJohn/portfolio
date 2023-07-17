@@ -2,6 +2,16 @@
   border: 0px;
   padding: 0px;
   box-sizing: border-box;
+  
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
 .nav-bar-outer{
